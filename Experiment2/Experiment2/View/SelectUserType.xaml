@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Experiment2.View.SelectUserType">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Select a type of user" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <Button Text="Client"
+                    VerticalOptions="CenterAndExpand" 
+                    Clicked="CreateUserAccountButton_Clicked" 
+                    Style="{StaticResource buttonStyle}" />
+
+            <Button Text="Service Provider"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="CreateServiceProviderAccountButton_Clicked"
+                    Style="{StaticResource buttonStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

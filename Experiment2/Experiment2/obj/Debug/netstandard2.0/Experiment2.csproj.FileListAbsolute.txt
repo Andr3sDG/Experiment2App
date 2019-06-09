@@ -1,0 +1,15 @@
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\bin\Debug\netstandard2.0\Experiment2.deps.json
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\bin\Debug\netstandard2.0\Experiment2.dll
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.csprojAssemblyReference.cache
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.csproj.CoreCompileInputs.cache
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.AssemblyInfoInputs.cache
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.AssemblyInfo.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\bin\Debug\netstandard2.0\Experiment2.pdb
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.dll
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\Experiment2.pdb
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\View\CreateAccountForm.xaml.g.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\View\EmailAuth.xaml.g.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\View\SelectUserType.xaml.g.cs
+C:\Users\andr3\source\repos\Experiment2\Experiment2\Experiment2\obj\Debug\netstandard2.0\XamlC.stamp

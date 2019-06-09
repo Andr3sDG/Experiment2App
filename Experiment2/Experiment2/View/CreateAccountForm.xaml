@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Experiment2.View.CreateAccountForm">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="We need some information of you first"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Label Text="Choose a user name"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry Keyboard="Email"
+                           x:Name="Username"
+                           Placeholder="Username"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Label Text="Enter your email address"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry Keyboard="Email"
+                           x:Name="Email"
+                           Placeholder="Email address"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Label Text="Enter your password"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry IsPassword="true" 
+                           x:Name="Password"
+                           Placeholder="Enter your password"
+                           VerticalOptions="CenterAndExpand"/>
+
+                <Label Text="Confirm password"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry IsPassword="true" 
+                           x:Name="ConfirmPassword"
+                           Placeholder="Confirm your password"
+                           VerticalOptions="CenterAndExpand"/>
+
+                <Label Text="Tell us your name"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry Keyboard="Email"
+                           Placeholder="First name"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Label Text="Tell us your lastname"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry Keyboard="Email"
+                           Placeholder="Last name"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Label Text="Enter your phone number"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="Center" />
+
+                <Entry Keyboard="Telephone"
+                           Placeholder="Phone"
+                           VerticalOptions="CenterAndExpand" />
+
+                <Button Text="Create account"
+                            VerticalOptions="CenterAndExpand"
+                            Style="{StaticResource buttonStyle}" 
+                            Clicked="CreateUserButton_Clicked" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

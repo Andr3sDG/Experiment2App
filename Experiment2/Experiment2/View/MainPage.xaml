@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Experiment2"
+             x:Class="Experiment2.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Experiment2!" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Sign in with Email"
+                VerticalOptions="Center"
+                Image="/Assets/email.png"
+                Clicked="SignInEmailButton_Clicked"
+                Style="{StaticResource buttonStyle}" />
+
+        <Button Text="Sign in with Facebook"
+                VerticalOptions="Center" 
+                Style="{StaticResource buttonStyle}" />
+
+        <Button Text="Sign in with Google"
+                VerticalOptions="Center" 
+                Style="{StaticResource buttonStyle}" />
+
+        <Button Text="Create account"
+                VerticalOptions="CenterAndExpand" 
+                Clicked="SelectUserTypeButton_Clicked" 
+                Style="{StaticResource buttonStyle}" />
+    </StackLayout>
+
+</ContentPage>
